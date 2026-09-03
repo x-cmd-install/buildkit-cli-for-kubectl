@@ -1,11 +1,13 @@
 about:
-  description: BuildKit CLI for kubectl is a tool for building container images with your Kubernetes cluster
+  description:
+  |
+    BuildKit CLI for kubectl is a tool for building container images with your Kubernetes cluster
   license: NOASSERTION
   homepage: 
   head: 1db649b
   archived: true
   latestVersion: v0.1.6
-  collectedAt: 2026-09-03T05:13:21Z
+  collectedAt: 2026-09-03T22:36:51Z
 timeline:
   created: 2020-10-22
   lastCommit: 2023-05-31
@@ -23,7 +25,7 @@ language:
   Makefile: 3020
   Ruby: 844
   PowerShell: 569
-totalLine: 196623
+totalBytes: 196623
 recent:
   last30d:
     since: 2026-08-04
