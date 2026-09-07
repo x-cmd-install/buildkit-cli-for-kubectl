@@ -5,7 +5,7 @@ about:
   head: 1db649b
   archived: true
   latestVersion: "v0.1.6"
-  collectedAt: 2026-09-07T04:28:27Z
+  collectedAt: 2026-09-07T19:58:30Z
 timeline:
   created: 2020-10-22
   lastCommit: 2023-05-31
@@ -82,7 +82,7 @@ total:
   commit: 178
 ---
 path: /home/runner/.x-repo/github.com/vmware-archive/buildkit-cli-for-kubectl
-collectedAt: 2026-09-07T04:28:30Z
+collectedAt: 2026-09-07T19:58:33Z
 loc:
   Go:
     code: 1054653
@@ -183,7 +183,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T04:28:31+00:00
+  collectedAt: 2026-09-07T19:58:34+00:00
   platform:
     darwin/arm64:
       name:  darwin-v0.1.6.tgz
