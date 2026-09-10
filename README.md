@@ -24,7 +24,16 @@ x install buildkit-cli-for-kubectl
 - **Latest**: `v0.1.6` (2022-07-13)
 - **Last commit**: 2023-05-31
 - **Assets in release**: 5
-- **Published**: 2022-07-13T18:18:14Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [darwin-v0.1.6.tgz](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/darwin-v0.1.6.tgz) | 27.8 MiB | `native/darwin/x64` |
+| [kubectl-buildkit-0.1.6-1.el7.x86_64.rpm](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/kubectl-buildkit-0.1.6-1.el7.x86_64.rpm) | 28.4 MiB | `runtime/rpm/x86_64` |
+| [kubectl-buildkit.0.1.6.nupkg](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/kubectl-buildkit.0.1.6.nupkg) | 26.7 MiB | `other` |
+| [kubectl-buildkit_0.1.6_amd64.deb](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/kubectl-buildkit_0.1.6_amd64.deb) | 25.5 MiB | `runtime/deb/amd64` |
+| [linux-v0.1.6.tgz](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/linux-v0.1.6.tgz) | 36.5 MiB | `native/unknown` |
 
 ## Popularity
 
@@ -59,8 +68,8 @@ Total: **1,186,046** lines of code across **4527** files in the top 5 languages.
 Install metadata for buildkit-cli-for-kubectl lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `buildkit-cli-for-kubectl` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/buildkit-cli-for-kubectl.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/buildkit-cli-for-kubectl.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:32:50Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:13:39Z._
