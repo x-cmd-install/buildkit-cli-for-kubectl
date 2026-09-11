@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 38312299,
       "digest": null,
-      "download_count": 7450,
+      "download_count": 7452,
       "created_at": "2022-07-01T23:41:53Z",
       "updated_at": "2022-07-01T23:41:54Z",
       "browser_download_url": "https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/linux-v0.1.6.tgz"
