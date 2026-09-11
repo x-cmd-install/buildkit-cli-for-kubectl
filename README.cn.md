@@ -14,6 +14,18 @@ BuildKit CLI for kubectl is a tool for building container images with your Kuber
 x install buildkit-cli-for-kubectl
 ```
 
+## 代码洞察
+
+合计: **1,186,046** 行代码（覆盖前 5 种语言、共 **4527** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 1,054,653 | 180,522 | 103,790 | 4358 |
+| Json | 102,926 | 0 | 0 | 4 |
+| Yaml | 11,460 | 73 | 287 | 12 |
+| Protobuf | 8,791 | 13,705 | 4,356 | 97 |
+| AssemblyGAS | 4,890 | 1,669 | 1,564 | 56 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/vmware-archive/buildkit-cli-for-kubectl>
@@ -24,16 +36,6 @@ x install buildkit-cli-for-kubectl
 - **最新版本**: `v0.1.6` (2022-07-13)
 - **最近提交**: 2023-05-31
 - **Release 含资产**: 5 个
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [darwin-v0.1.6.tgz](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/darwin-v0.1.6.tgz) | 27.8 MiB | `native/darwin/x64` |
-| [kubectl-buildkit-0.1.6-1.el7.x86_64.rpm](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/kubectl-buildkit-0.1.6-1.el7.x86_64.rpm) | 28.4 MiB | `runtime/rpm/x86_64` |
-| [kubectl-buildkit.0.1.6.nupkg](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/kubectl-buildkit.0.1.6.nupkg) | 26.7 MiB | `other` |
-| [kubectl-buildkit_0.1.6_amd64.deb](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/kubectl-buildkit_0.1.6_amd64.deb) | 25.5 MiB | `runtime/deb/amd64` |
-| [linux-v0.1.6.tgz](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/linux-v0.1.6.tgz) | 36.5 MiB | `native/unknown` |
 
 ## 流行度
 
@@ -47,21 +49,22 @@ x install buildkit-cli-for-kubectl
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-21 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## 代码规模
+## Release 资产
 
-合计: **1,186,046** 行代码（覆盖前 5 种语言、共 **4527** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 1,054,653 | 180,522 | 103,790 | 4358 |
-| Json | 102,926 | 0 | 0 | 4 |
-| Yaml | 11,460 | 73 | 287 | 12 |
-| Protobuf | 8,791 | 13,705 | 4,356 | 97 |
-| AssemblyGAS | 4,890 | 1,669 | 1,564 | 56 |
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [darwin-v0.1.6.tgz](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/darwin-v0.1.6.tgz) | 27.8 MiB | `native/darwin/x64` |
+| [kubectl-buildkit-0.1.6-1.el7.x86_64.rpm](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/kubectl-buildkit-0.1.6-1.el7.x86_64.rpm) | 28.4 MiB | `runtime/rpm/x86_64` |
+| [kubectl-buildkit.0.1.6.nupkg](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/kubectl-buildkit.0.1.6.nupkg) | 26.7 MiB | `other` |
+| [kubectl-buildkit_0.1.6_amd64.deb](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/kubectl-buildkit_0.1.6_amd64.deb) | 25.5 MiB | `runtime/deb/amd64` |
+| [linux-v0.1.6.tgz](https://github.com/vmware-archive/buildkit-cli-for-kubectl/releases/download/v0.1.6/linux-v0.1.6.tgz) | 36.5 MiB | `native/unknown` |
 
 ## 改进这些数据
 
@@ -72,4 +75,4 @@ buildkit-cli-for-kubectl 的安装元数据由 [x-cmd/install](https://github.co
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:13:39Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T00:14:50Z._
